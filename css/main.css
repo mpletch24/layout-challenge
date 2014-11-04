@@ -1,0 +1,140 @@
+/*Fonts!*/
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+/* basic elements */
+body { 
+	font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	}
+
+a { 
+	text-decoration: none; 
+	color: #0000AA;
+	}
+
+a:hover, a:focus { 
+	color: #0000EE;
+	}
+
+h1, h2, h3 {
+	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+h1 { 
+	font-size: 300%;
+	margin: 0;
+	}
+
+h2 { 
+	color: #505050;
+	font-size: 150%;
+	}
+
+h3 { 
+	font-size: 125%;
+	color: #505050;
+	}
+
+header {
+	padding: 1em;
+	background-color: #FA5A0F;
+	border-bottom: 5px #EA4A00;
+	color: #FFFFFF;
+	}
+
+header p {
+	font-size: 120%;
+	color: #EEEEEE;
+	margin: 0;
+	}
+
+.container-fluid {
+	margin: 20px, 20px, 20px, 30%;
+}
+
+nav {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 1em;
+	}
+
+nav a {
+	color: #55E;
+	}
+
+nav a:hover, a:focus {
+	color: #00E;
+	}
+
+main {
+	background-image: url('../img/ricepaper_v3.png');
+	opacity: 0.9;
+	
+	}
+
+#page, #menu, #about {
+	padding: 1em;
+	}
+
+#menu {
+	background-color: rgba(207, 205, 140, 0.5);
+	}
+
+#menu dt {
+	font-weight: 400;
+	}
+
+#menu dd {
+	font-style: italic;
+	font-size: 80%;
+	margin-left: 1em;
+	margin-bottom: 1em;
+	}
+
+footer {
+	background-color: #FC892F;
+	border-top: 5px #EC791F;
+	font-size: 80%;
+	text-align: right;
+	padding: 1em;
+	}
+
+@media screen and (max-width: 991px) {
+	body {
+		background-image: none;
+		font-size: 16px;
+	}
+
+	main {
+		margin: 0px;
+	}
+
+	.container-fluid {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	nav {
+		position: initial;
+	}
+
+	header p {
+		display: none;
+	}
+}
